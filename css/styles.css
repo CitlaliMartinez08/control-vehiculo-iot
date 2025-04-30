@@ -1,0 +1,48 @@
+/* Colores personalizados */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    flex: 1;
+}
+.btn-magenta {
+    background-color: #c2185b;
+    color: white;
+}
+.btn-green {
+    background-color: #00695c;
+    color: white;
+}
+.btn-brown {
+    background-color: #8d6e63;
+    color: white;
+}
+.btn-yellow {
+    background-color: #fbc02d;
+    color: black;
+}
+.btn-red {
+    background-color: #e53935;
+    color: white;
+}
+.btn-blue {
+    background-color: #5c6bc0;
+    color: white;
+}
+.btn-orange {
+    background-color: #fb8c00;
+    color: white;
+}
+
+/* Efectos al pasar el mouse */
+button:hover {
+    opacity: 0.8;
+}
