@@ -31,7 +31,7 @@ function sendCommand(command) {
     };
 
     // Hacemos el POST usando fetch
-    fetch('http://44.203.227.190/api/devices', {
+    fetch('http://44.202.207.92/api/devices', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
